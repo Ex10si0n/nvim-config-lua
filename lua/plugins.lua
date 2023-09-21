@@ -70,6 +70,9 @@ return require('packer').startup(function(use)
     run = 'make install_jsregexp'
   }
 
+  -- Git
+  use 'f-person/git-blame.nvim'
+
   -- Copilot
   use {
     'zbirenbaum/copilot.lua',
