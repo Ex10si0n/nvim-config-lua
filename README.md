@@ -2,6 +2,12 @@
 
 ## Quickly setup
 
+0. Clone this repository into your Neovim Configuration
+
+```bash
+git clone git@github.com:Ex10si0n/nvim-config-lua.git ~/.config/nvim
+```
+
 1. Install `Packer` the lua package manager
 
 ```bash
