@@ -13,9 +13,7 @@ opt.shiftwidth = 2
 opt.mouse = "a"
 opt.title = true
 
-api.nvim_command("autocmd VimEnter * highlight Visual ctermbg=0 guibg=black")
-api.nvim_command("autocmd VimEnter * highlight Normal guibg=none")
-api.nvim_command("autocmd VimEnter * highlight NonText guibg=none")
+api.nvim_command("autocmd VimEnter * highlight Visual ctermbg=0 guibg=Black")
 
 vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.format()]]
 vim.cmd [[colorscheme abstract]]
